@@ -1,0 +1,29 @@
+2024-07-21 15:54:05.275 +05:30 [INF] Now listening on: https://localhost:7215
+2024-07-21 15:54:05.334 +05:30 [INF] Now listening on: http://localhost:5285
+2024-07-21 15:54:05.337 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-21 15:54:05.337 +05:30 [INF] Hosting environment: Development
+2024-07-21 15:54:05.337 +05:30 [INF] Content root path: C:\Users\Sunny\source\repos\CollegeApp\CollegeApp
+2024-07-21 15:54:07.127 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-07-21 15:54:07.361 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-21 15:54:07.401 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - null null
+2024-07-21 15:54:07.401 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 211.5055ms
+2024-07-21 15:54:07.403 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 41.8901ms
+2024-07-21 15:54:07.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.3816ms
+2024-07-21 15:54:07.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-07-21 15:54:07.743 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 230.493ms
+2024-07-21 15:54:12.818 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7215/api/Student/GetStudentName - null null
+2024-07-21 15:54:12.824 +05:30 [INF] CORS policy execution successful.
+2024-07-21 15:54:12.825 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7215/api/Student/GetStudentName - 204 null null 7.1754ms
+2024-07-21 15:54:12.827 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Student/GetStudentName - application/json; null
+2024-07-21 15:54:12.829 +05:30 [INF] CORS policy execution successful.
+2024-07-21 15:54:12.832 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-07-21 15:54:12.849 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CollegeApp.DTO.StudentDTO]]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-07-21 15:54:13.555 +05:30 [INF] Method has Started
+2024-07-21 15:54:14.054 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-07-21 15:54:14.126 +05:30 [INF] Success
+2024-07-21 15:54:14.131 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CollegeApp.DTO.StudentDTO, CollegeApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-21 15:54:14.212 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 1361.0993ms
+2024-07-21 15:54:14.213 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-07-21 15:54:14.219 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Student/GetStudentName - 200 195 application/json; charset=utf-8 1392.1013ms

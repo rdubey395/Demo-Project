@@ -1,0 +1,44 @@
+2024-08-03 12:10:38.477 +05:30 [INF] User profile is available. Using 'C:\Users\Sunny\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:10:39.459 +05:30 [INF] Now listening on: https://localhost:7215
+2024-08-03 12:10:39.459 +05:30 [INF] Now listening on: http://localhost:5285
+2024-08-03 12:10:39.461 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:10:39.461 +05:30 [INF] Hosting environment: Development
+2024-08-03 12:10:39.461 +05:30 [INF] Content root path: C:\Users\Sunny\source\repos\CollegeApp\CollegeApp
+2024-08-03 12:11:03.987 +05:30 [INF] User profile is available. Using 'C:\Users\Sunny\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:11:04.439 +05:30 [INF] Now listening on: https://localhost:7215
+2024-08-03 12:11:04.439 +05:30 [INF] Now listening on: http://localhost:5285
+2024-08-03 12:11:04.441 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:11:04.441 +05:30 [INF] Hosting environment: Development
+2024-08-03 12:11:04.441 +05:30 [INF] Content root path: C:\Users\Sunny\source\repos\CollegeApp\CollegeApp
+2024-08-03 12:11:39.009 +05:30 [INF] User profile is available. Using 'C:\Users\Sunny\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:11:39.396 +05:30 [INF] Now listening on: http://localhost:5285
+2024-08-03 12:11:39.402 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:11:39.403 +05:30 [INF] Hosting environment: Development
+2024-08-03 12:11:39.403 +05:30 [INF] Content root path: C:\Users\Sunny\source\repos\CollegeApp\CollegeApp
+2024-08-03 21:22:20.505 +05:30 [INF] User profile is available. Using 'C:\Users\Sunny\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 21:22:20.732 +05:30 [INF] Now listening on: http://localhost:5285
+2024-08-03 21:22:20.733 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 21:22:20.734 +05:30 [INF] Hosting environment: Development
+2024-08-03 21:22:20.734 +05:30 [INF] Content root path: C:\Users\Sunny\source\repos\CollegeApp\CollegeApp
+2024-08-03 21:22:22.144 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger - null null
+2024-08-03 21:22:22.676 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger - 301 0 null 584.51ms
+2024-08-03 21:22:22.679 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger/index.html - null null
+2024-08-03 21:22:22.835 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger/index.html - 200 null text/html;charset=utf-8 156.2934ms
+2024-08-03 21:22:22.842 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger/swagger-ui.css - null null
+2024-08-03 21:22:22.844 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger/swagger-ui-bundle.js - null null
+2024-08-03 21:22:22.848 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-03 21:22:22.945 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-03 21:22:22.945 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-03 21:22:22.947 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger/swagger-ui.css - 200 143943 text/css 104.7143ms
+2024-08-03 21:22:22.947 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 99.0005ms
+2024-08-03 21:22:22.947 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-03 21:22:22.951 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 3.6647ms
+2024-08-03 21:22:22.956 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/_vs/browserLink - null null
+2024-08-03 21:22:22.962 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-03 21:22:22.963 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 119.2199ms
+2024-08-03 21:22:23.055 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.9255ms
+2024-08-03 21:22:23.726 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger/v1/swagger.json - null null
+2024-08-03 21:22:23.894 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger/favicon-32x32.png - null null
+2024-08-03 21:22:23.894 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-08-03 21:22:23.896 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger/favicon-32x32.png - 200 628 image/png 0.7573ms
+2024-08-03 21:22:24.270 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 543.8129ms

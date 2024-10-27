@@ -1,0 +1,1023 @@
+2024-08-10 00:11:08.278 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 00:11:08.281 +05:30 [INF] CORS policy execution successful.
+2024-08-10 00:11:08.281 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 3.2526ms
+2024-08-10 00:11:08.283 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 00:11:08.283 +05:30 [INF] CORS policy execution successful.
+2024-08-10 00:11:08.283 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 00:11:08.284 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 00:11:08.315 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 00:11:08.315 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 30.9785ms
+2024-08-10 00:11:08.315 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 00:11:08.315 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 32.3283ms
+2024-08-10 00:11:16.260 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 00:11:16.261 +05:30 [INF] CORS policy execution successful.
+2024-08-10 00:11:16.261 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.9103ms
+2024-08-10 00:11:16.262 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 00:11:16.262 +05:30 [INF] CORS policy execution successful.
+2024-08-10 00:11:16.263 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 00:11:16.263 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 00:11:16.265 +05:30 [INF] Method has Started
+2024-08-10 00:11:16.296 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 00:11:16.296 +05:30 [INF] Success
+2024-08-10 00:11:16.298 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 00:11:16.298 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 35.3672ms
+2024-08-10 00:11:16.298 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 00:11:16.299 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 36.4332ms
+2024-08-10 00:16:54.142 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 00:16:54.142 +05:30 [INF] CORS policy execution successful.
+2024-08-10 00:16:54.142 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.6046ms
+2024-08-10 00:16:54.149 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 00:16:54.149 +05:30 [INF] CORS policy execution successful.
+2024-08-10 00:16:54.149 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 00:16:54.149 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 00:16:54.177 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 00:16:54.177 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 27.2857ms
+2024-08-10 00:16:54.177 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 00:16:54.178 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 28.4929ms
+2024-08-10 00:16:58.175 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 00:16:58.175 +05:30 [INF] CORS policy execution successful.
+2024-08-10 00:16:58.175 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2171ms
+2024-08-10 00:16:58.177 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 00:16:58.177 +05:30 [INF] CORS policy execution successful.
+2024-08-10 00:16:58.178 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 00:16:58.178 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 00:16:58.178 +05:30 [INF] Method has Started
+2024-08-10 00:16:58.203 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 00:16:58.203 +05:30 [INF] Success
+2024-08-10 00:16:58.203 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 00:16:58.204 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 25.9406ms
+2024-08-10 00:16:58.204 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 00:16:58.204 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 26.8164ms
+2024-08-10 01:04:38.312 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 76
+2024-08-10 01:04:38.312 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:04:38.312 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 01:04:38.312 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 01:04:38.313 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 01:04:38.313 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 1.2014ms
+2024-08-10 01:04:38.313 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 01:04:38.313 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 30 application/json; charset=utf-8 1.9459ms
+2024-08-10 01:04:55.053 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 81
+2024-08-10 01:04:55.053 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:04:55.053 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 01:04:55.054 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 01:04:55.054 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 01:04:55.055 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 1.2963ms
+2024-08-10 01:04:55.055 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 01:04:55.055 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 2.022ms
+2024-08-10 01:05:10.732 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 01:05:10.734 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(String inputString, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-08-10 01:05:10.734 +05:30 [INF] LocalJwt was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-08-10 01:05:10.734 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-08-10 01:05:10.734 +05:30 [INF] AuthenticationScheme: LocalJwt was challenged.
+2024-08-10 01:05:10.735 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 401 0 null 2.584ms
+2024-08-10 01:05:20.553 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 01:05:20.554 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(String inputString, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-08-10 01:05:20.554 +05:30 [INF] LocalJwt was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-08-10 01:05:20.554 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-08-10 01:05:20.554 +05:30 [INF] AuthenticationScheme: LocalJwt was challenged.
+2024-08-10 01:05:20.554 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 401 0 null 1.0402ms
+2024-08-10 01:14:15.279 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 01:14:15.282 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:14:15.282 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 3.561ms
+2024-08-10 01:14:15.290 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 01:14:15.290 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:14:15.292 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 01:14:15.293 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 01:14:15.294 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 01:14:15.294 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 1.442ms
+2024-08-10 01:14:15.294 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 01:14:15.294 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 4.2172ms
+2024-08-10 01:14:19.629 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 01:14:19.629 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:14:19.629 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2791ms
+2024-08-10 01:14:19.631 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 01:14:19.631 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:14:19.632 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 01:14:19.632 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 01:14:19.633 +05:30 [INF] Method has Started
+2024-08-10 01:14:19.659 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 01:14:19.659 +05:30 [INF] Success
+2024-08-10 01:14:19.659 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 01:14:19.659 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 27.5602ms
+2024-08-10 01:14:19.659 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 01:14:19.659 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 28.8816ms
+2024-08-10 01:14:36.860 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 01:14:36.861 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:14:36.861 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.7596ms
+2024-08-10 01:14:36.862 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 01:14:36.862 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:14:36.863 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 01:14:36.863 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 01:14:36.864 +05:30 [INF] Method has Started
+2024-08-10 01:14:36.876 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 01:14:36.877 +05:30 [INF] Success
+2024-08-10 01:14:36.879 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 01:14:36.880 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 17.0284ms
+2024-08-10 01:14:36.880 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 01:14:36.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 18.0204ms
+2024-08-10 01:14:37.821 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 01:14:37.822 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:14:37.822 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 01:14:37.822 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 01:14:37.822 +05:30 [INF] Method has Started
+2024-08-10 01:14:37.825 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 01:14:37.825 +05:30 [INF] Success
+2024-08-10 01:14:37.825 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 01:14:37.825 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 3.2801ms
+2024-08-10 01:14:37.825 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 01:14:37.825 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 4.0917ms
+2024-08-10 01:14:53.534 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 01:14:53.534 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:14:53.535 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2053ms
+2024-08-10 01:14:53.535 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 01:14:53.535 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:14:53.535 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 01:14:53.536 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 01:14:53.537 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 01:14:53.537 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 1.0886ms
+2024-08-10 01:14:53.537 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 01:14:53.537 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 1.3716ms
+2024-08-10 01:15:10.629 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 01:15:10.630 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:15:10.630 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.737ms
+2024-08-10 01:15:10.631 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 01:15:10.631 +05:30 [INF] CORS policy execution successful.
+2024-08-10 01:15:10.632 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 01:15:10.632 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 01:15:10.632 +05:30 [INF] Method has Started
+2024-08-10 01:15:10.635 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 01:15:10.635 +05:30 [INF] Success
+2024-08-10 01:15:10.636 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 01:15:10.636 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 3.8986ms
+2024-08-10 01:15:10.636 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 01:15:10.636 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 4.6696ms
+2024-08-10 02:12:09.616 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:12:09.616 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:12:09.616 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.8826ms
+2024-08-10 02:12:09.621 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:12:09.621 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:12:09.621 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:12:09.621 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:12:09.625 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:12:09.625 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 4.3594ms
+2024-08-10 02:12:09.625 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:12:09.625 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 4.7789ms
+2024-08-10 02:12:12.564 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:12:12.564 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:12:12.564 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2559ms
+2024-08-10 02:12:12.565 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:12:12.566 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:12:12.566 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:12:12.566 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:12:12.567 +05:30 [INF] Method has Started
+2024-08-10 02:12:12.593 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:12:12.593 +05:30 [INF] Success
+2024-08-10 02:12:12.593 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:12:12.593 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 26.9414ms
+2024-08-10 02:12:12.593 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:12:12.593 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 27.7926ms
+2024-08-10 02:16:52.115 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:16:52.115 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:16:52.115 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.3088ms
+2024-08-10 02:16:52.133 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:16:52.133 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:16:52.133 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:16:52.134 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:16:52.165 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:16:52.165 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 30.8368ms
+2024-08-10 02:16:52.165 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:16:52.165 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 32.2124ms
+2024-08-10 02:16:54.622 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:16:54.622 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:16:54.622 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2141ms
+2024-08-10 02:16:54.623 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:16:54.623 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:16:54.624 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:16:54.624 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:16:54.625 +05:30 [INF] Method has Started
+2024-08-10 02:16:54.632 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:16:54.633 +05:30 [INF] Success
+2024-08-10 02:16:54.635 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:16:54.636 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 11.4244ms
+2024-08-10 02:16:54.636 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:16:54.637 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 13.5288ms
+2024-08-10 02:23:21.465 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:23:21.465 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:23:21.465 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2576ms
+2024-08-10 02:23:21.469 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:23:21.470 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:23:21.470 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:23:21.470 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:23:21.475 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:23:21.475 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 5.1497ms
+2024-08-10 02:23:21.475 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:23:21.475 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 5.7069ms
+2024-08-10 02:23:30.437 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:23:30.437 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:23:30.437 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2153ms
+2024-08-10 02:23:30.438 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:23:30.438 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:23:30.439 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:23:30.439 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:23:30.440 +05:30 [INF] Method has Started
+2024-08-10 02:23:30.459 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:23:30.460 +05:30 [INF] Success
+2024-08-10 02:23:30.460 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:23:30.461 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 21.8635ms
+2024-08-10 02:23:30.461 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:23:30.462 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 23.456ms
+2024-08-10 02:24:03.290 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:24:03.290 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:24:03.290 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2099ms
+2024-08-10 02:24:03.296 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:24:03.297 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:24:03.299 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:24:03.300 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:24:03.301 +05:30 [INF] Method has Started
+2024-08-10 02:24:03.304 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:24:03.304 +05:30 [INF] Success
+2024-08-10 02:24:03.304 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:24:03.304 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 4.4056ms
+2024-08-10 02:24:03.305 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:24:03.305 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 9.0192ms
+2024-08-10 02:24:58.049 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:24:58.049 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:24:58.049 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2926ms
+2024-08-10 02:24:58.054 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:24:58.054 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:24:58.055 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:24:58.055 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:24:58.056 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:24:58.056 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.6252ms
+2024-08-10 02:24:58.056 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:24:58.056 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 2.7652ms
+2024-08-10 02:25:01.504 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:25:01.504 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:25:01.504 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.1825ms
+2024-08-10 02:25:01.506 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:25:01.506 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:25:01.506 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:25:01.506 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:25:01.507 +05:30 [INF] Method has Started
+2024-08-10 02:25:01.509 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:25:01.509 +05:30 [INF] Success
+2024-08-10 02:25:01.510 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:25:01.510 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 3.6416ms
+2024-08-10 02:25:01.510 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:25:01.510 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 4.2205ms
+2024-08-10 02:25:35.169 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:25:35.169 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:25:35.170 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2069ms
+2024-08-10 02:25:35.175 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:25:35.175 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:25:35.177 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:25:35.177 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:25:35.204 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:25:35.204 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 27.2639ms
+2024-08-10 02:25:35.204 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:25:35.204 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 28.68ms
+2024-08-10 02:25:38.863 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:25:38.863 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:25:38.863 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.1815ms
+2024-08-10 02:25:38.864 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:25:38.864 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:25:38.865 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:25:38.865 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:25:38.865 +05:30 [INF] Method has Started
+2024-08-10 02:25:38.874 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:25:38.874 +05:30 [INF] Success
+2024-08-10 02:25:38.875 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:25:38.877 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 11.8808ms
+2024-08-10 02:25:38.877 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:25:38.878 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 13.4846ms
+2024-08-10 02:27:02.041 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:27:02.041 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:27:02.041 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2288ms
+2024-08-10 02:27:02.042 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:27:02.042 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:27:02.042 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:27:02.042 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:27:02.043 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:27:02.043 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.4888ms
+2024-08-10 02:27:02.043 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:27:02.043 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 1.3184ms
+2024-08-10 02:27:06.194 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:27:06.194 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:27:06.195 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2477ms
+2024-08-10 02:27:06.196 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:27:06.196 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:27:06.197 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:27:06.197 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:27:06.197 +05:30 [INF] Method has Started
+2024-08-10 02:27:06.202 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:27:06.202 +05:30 [INF] Success
+2024-08-10 02:27:06.203 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:27:06.203 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 6.469ms
+2024-08-10 02:27:06.203 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:27:06.203 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 7.679ms
+2024-08-10 02:27:21.303 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:27:21.303 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:27:21.303 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.1689ms
+2024-08-10 02:27:21.304 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:27:21.305 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:27:21.305 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:27:21.305 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:27:21.306 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:27:21.306 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.98ms
+2024-08-10 02:27:21.306 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:27:21.306 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 1.352ms
+2024-08-10 02:27:24.458 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:27:24.458 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:27:24.458 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2137ms
+2024-08-10 02:27:24.459 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:27:24.459 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:27:24.460 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:27:24.460 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:27:24.460 +05:30 [INF] Method has Started
+2024-08-10 02:27:24.483 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:27:24.483 +05:30 [INF] Success
+2024-08-10 02:27:24.485 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:27:24.488 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 27.9216ms
+2024-08-10 02:27:24.488 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:27:24.488 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 29.0357ms
+2024-08-10 02:28:53.333 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:28:53.333 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:28:53.333 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.188ms
+2024-08-10 02:28:53.338 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:28:53.338 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:28:53.338 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:28:53.338 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:28:53.342 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:28:53.342 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 4.1186ms
+2024-08-10 02:28:53.342 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:28:53.342 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 4.5641ms
+2024-08-10 02:28:58.052 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:28:58.052 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:28:58.052 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.1911ms
+2024-08-10 02:28:58.053 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:28:58.053 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:28:58.054 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:28:58.054 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:28:58.054 +05:30 [INF] Method has Started
+2024-08-10 02:28:58.057 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:28:58.058 +05:30 [INF] Success
+2024-08-10 02:28:58.058 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:28:58.058 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 4.1014ms
+2024-08-10 02:28:58.058 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:28:58.058 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 5.4321ms
+2024-08-10 02:29:23.592 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:29:23.592 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:29:23.592 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2194ms
+2024-08-10 02:29:23.598 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:29:23.598 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:29:23.598 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:29:23.599 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:29:23.602 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:29:23.603 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 4.6124ms
+2024-08-10 02:29:23.603 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:29:23.603 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 4.9886ms
+2024-08-10 02:29:26.688 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:29:26.688 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:29:26.688 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.1875ms
+2024-08-10 02:29:26.689 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:29:26.689 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:29:26.689 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:29:26.689 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:29:26.689 +05:30 [INF] Method has Started
+2024-08-10 02:29:26.692 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:29:26.692 +05:30 [INF] Success
+2024-08-10 02:29:26.693 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:29:26.693 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 3.7608ms
+2024-08-10 02:29:26.693 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:29:26.693 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 4.3076ms
+2024-08-10 02:29:43.285 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:29:43.285 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:29:43.285 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.1723ms
+2024-08-10 02:29:43.286 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:29:43.286 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:29:43.286 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:29:43.286 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:29:43.287 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:29:43.287 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.9179ms
+2024-08-10 02:29:43.287 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:29:43.287 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 1.2537ms
+2024-08-10 02:29:46.523 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:29:46.523 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:29:46.523 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2932ms
+2024-08-10 02:29:46.525 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:29:46.525 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:29:46.525 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:29:46.525 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:29:46.526 +05:30 [INF] Method has Started
+2024-08-10 02:29:46.532 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:29:46.532 +05:30 [INF] Success
+2024-08-10 02:29:46.532 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:29:46.532 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 7.1644ms
+2024-08-10 02:29:46.533 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:29:46.533 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 7.9065ms
+2024-08-10 02:30:15.429 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:30:15.429 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:30:15.429 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.1724ms
+2024-08-10 02:30:15.435 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:30:15.435 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:30:15.436 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:30:15.436 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:30:15.439 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:30:15.439 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 2.86ms
+2024-08-10 02:30:15.439 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:30:15.439 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 4.3963ms
+2024-08-10 02:30:18.624 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:30:18.624 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:30:18.624 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.1953ms
+2024-08-10 02:30:18.625 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:30:18.626 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:30:18.626 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:30:18.626 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:30:18.627 +05:30 [INF] Method has Started
+2024-08-10 02:30:18.632 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:30:18.633 +05:30 [INF] Success
+2024-08-10 02:30:18.633 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:30:18.634 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 7.6792ms
+2024-08-10 02:30:18.634 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:30:18.634 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 8.4574ms
+2024-08-10 02:32:26.610 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:32:26.610 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:32:26.610 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2842ms
+2024-08-10 02:32:26.611 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:32:26.614 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:32:26.615 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:32:26.615 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:32:26.615 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:32:26.615 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.5529ms
+2024-08-10 02:32:26.615 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:32:26.615 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 4.279ms
+2024-08-10 02:32:29.220 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:32:29.220 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:32:29.220 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2597ms
+2024-08-10 02:32:29.221 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:32:29.221 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:32:29.221 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:32:29.222 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:32:29.222 +05:30 [INF] Method has Started
+2024-08-10 02:32:29.232 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:32:29.233 +05:30 [INF] Success
+2024-08-10 02:32:29.237 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:32:29.238 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 16.0789ms
+2024-08-10 02:32:29.238 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:32:29.238 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 16.7885ms
+2024-08-10 02:33:05.958 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 02:33:05.958 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:33:05.958 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.8657ms
+2024-08-10 02:33:05.964 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 02:33:05.964 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:33:05.965 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:33:05.965 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 02:33:05.969 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 02:33:05.970 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 5.5622ms
+2024-08-10 02:33:05.970 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 02:33:05.970 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 6.0306ms
+2024-08-10 02:33:09.118 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 02:33:09.118 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:33:09.118 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2279ms
+2024-08-10 02:33:09.119 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 02:33:09.119 +05:30 [INF] CORS policy execution successful.
+2024-08-10 02:33:09.120 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:33:09.120 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 02:33:09.120 +05:30 [INF] Method has Started
+2024-08-10 02:33:09.122 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 02:33:09.122 +05:30 [INF] Success
+2024-08-10 02:33:09.122 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 02:33:09.123 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 2.811ms
+2024-08-10 02:33:09.123 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 02:33:09.123 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 3.4574ms
+2024-08-10 18:26:41.450 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 18:26:41.450 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:26:41.450 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.5285ms
+2024-08-10 18:26:41.453 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 18:26:41.453 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:26:41.454 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:26:41.454 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 18:26:41.459 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 18:26:41.459 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 5.171ms
+2024-08-10 18:26:41.459 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:26:41.459 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 5.6846ms
+2024-08-10 18:27:25.785 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 18:27:25.785 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:27:25.785 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.1875ms
+2024-08-10 18:27:25.785 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 18:27:25.786 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:27:25.786 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:27:25.787 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 18:27:25.788 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 18:27:25.788 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.7114ms
+2024-08-10 18:27:25.788 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:27:25.788 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 2.6234ms
+2024-08-10 18:27:53.082 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 18:27:53.082 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:27:53.082 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2692ms
+2024-08-10 18:27:53.086 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 18:27:53.087 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:27:53.087 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:27:53.087 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 18:27:53.088 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 18:27:53.088 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 1.2285ms
+2024-08-10 18:27:53.088 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:27:53.088 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 4.5606ms
+2024-08-10 18:28:49.294 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 18:28:49.294 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:28:49.295 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.7081ms
+2024-08-10 18:28:49.301 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 18:28:49.301 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:28:49.301 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:28:49.302 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 18:28:49.305 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 18:28:49.306 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 4.6174ms
+2024-08-10 18:28:49.306 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:28:49.306 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 5.2047ms
+2024-08-10 18:29:53.684 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 18:29:53.684 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:29:53.684 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2316ms
+2024-08-10 18:29:53.685 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 18:29:53.685 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:29:53.685 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:29:53.686 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 18:29:53.687 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 18:29:53.687 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.7267ms
+2024-08-10 18:29:53.687 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:29:53.687 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 2.709ms
+2024-08-10 18:30:58.887 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 18:30:58.887 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:30:58.887 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2477ms
+2024-08-10 18:30:58.888 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 18:30:58.889 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:30:58.890 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:30:58.890 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 18:30:58.891 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 18:30:58.891 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 1.1053ms
+2024-08-10 18:30:58.891 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:30:58.891 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 3.2428ms
+2024-08-10 18:31:15.192 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 18:31:15.192 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:31:15.192 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2166ms
+2024-08-10 18:31:15.193 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 18:31:15.193 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:31:15.193 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:31:15.193 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 18:31:15.194 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 18:31:15.194 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.3113ms
+2024-08-10 18:31:15.194 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:31:15.194 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 0.5801ms
+2024-08-10 18:41:31.685 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 18:41:31.687 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:41:31.688 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 2.4483ms
+2024-08-10 18:41:31.695 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 18:41:31.697 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:41:31.698 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:41:31.698 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 18:41:31.721 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 18:41:31.721 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 22.6505ms
+2024-08-10 18:41:31.721 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:41:31.721 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 25.4968ms
+2024-08-10 18:57:10.993 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 18:57:10.993 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:57:10.993 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.3433ms
+2024-08-10 18:57:10.998 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 18:57:10.998 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:57:10.998 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:57:10.998 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 18:57:11.001 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 18:57:11.001 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 3.338ms
+2024-08-10 18:57:11.001 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:57:11.001 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 3.7118ms
+2024-08-10 18:57:35.888 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 18:57:35.888 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:57:35.888 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 1.0363ms
+2024-08-10 18:57:35.895 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 18:57:35.895 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:57:35.899 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 18:57:35.899 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 18:57:35.901 +05:30 [INF] Method has Started
+2024-08-10 18:57:35.969 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 18:57:35.969 +05:30 [INF] Success
+2024-08-10 18:57:35.969 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 18:57:35.969 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 70.665ms
+2024-08-10 18:57:35.969 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 18:57:35.970 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 74.6343ms
+2024-08-10 18:59:12.360 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 18:59:12.360 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:59:12.360 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.3ms
+2024-08-10 18:59:12.367 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 18:59:12.367 +05:30 [INF] CORS policy execution successful.
+2024-08-10 18:59:12.367 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:59:12.367 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 18:59:12.370 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 18:59:12.371 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 3.9049ms
+2024-08-10 18:59:12.372 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 18:59:12.372 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 5.229ms
+2024-08-10 19:00:05.287 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 19:00:05.287 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:00:05.287 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.4348ms
+2024-08-10 19:00:05.293 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 19:00:05.293 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:00:05.293 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:00:05.293 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 19:00:05.294 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 19:00:05.321 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 27.5039ms
+2024-08-10 19:00:05.321 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:00:05.321 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 28.5522ms
+2024-08-10 19:00:45.173 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 19:00:45.173 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:00:45.173 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.1938ms
+2024-08-10 19:00:45.179 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 19:00:45.179 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:00:45.180 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:00:45.180 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 19:00:45.184 +05:30 [INF] Method has Started
+2024-08-10 19:00:45.191 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 19:00:45.191 +05:30 [INF] Success
+2024-08-10 19:00:45.192 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 19:00:45.192 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 9.9198ms
+2024-08-10 19:00:45.192 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:00:45.192 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 12.9886ms
+2024-08-10 19:01:34.389 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 19:01:34.389 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:01:34.389 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2192ms
+2024-08-10 19:01:34.390 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 19:01:34.390 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:01:34.390 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:01:34.390 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 19:01:34.391 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 19:01:34.391 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.2469ms
+2024-08-10 19:01:34.391 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:01:34.391 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 0.5273ms
+2024-08-10 19:01:39.403 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 19:01:39.403 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:01:39.403 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2186ms
+2024-08-10 19:01:39.404 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 19:01:39.404 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:01:39.405 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:01:39.405 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 19:01:39.405 +05:30 [INF] Method has Started
+2024-08-10 19:01:39.408 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 19:01:39.408 +05:30 [INF] Success
+2024-08-10 19:01:39.408 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 19:01:39.408 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 3.3365ms
+2024-08-10 19:01:39.408 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:01:39.408 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 4.4172ms
+2024-08-10 19:02:04.195 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 19:02:04.196 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:02:04.196 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.2353ms
+2024-08-10 19:02:04.202 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 19:02:04.202 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:02:04.203 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:02:04.203 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 19:02:04.206 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 19:02:04.206 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 3.4734ms
+2024-08-10 19:02:04.206 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:02:04.206 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 3.861ms
+2024-08-10 19:02:07.616 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 19:02:07.616 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:02:07.616 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.158ms
+2024-08-10 19:02:07.617 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 19:02:07.617 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:02:07.619 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:02:07.620 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 19:02:07.621 +05:30 [INF] Method has Started
+2024-08-10 19:02:07.623 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 19:02:07.624 +05:30 [INF] Success
+2024-08-10 19:02:07.624 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 19:02:07.624 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 4.3646ms
+2024-08-10 19:02:07.624 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:02:07.624 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 6.917ms
+2024-08-10 19:04:25.491 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 19:04:25.491 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:04:25.491 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.418ms
+2024-08-10 19:04:25.493 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 19:04:25.495 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:04:25.496 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:04:25.496 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 19:04:25.498 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 19:04:25.498 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 1.0829ms
+2024-08-10 19:04:25.498 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:04:25.498 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 5.3935ms
+2024-08-10 19:04:28.203 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 19:04:28.204 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:04:28.204 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:04:28.204 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 19:04:28.204 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 19:04:28.204 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.3526ms
+2024-08-10 19:04:28.204 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:04:28.204 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 0.7191ms
+2024-08-10 19:04:31.087 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 19:04:31.087 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:04:31.087 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.192ms
+2024-08-10 19:04:31.089 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 19:04:31.089 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:04:31.089 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:04:31.090 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 19:04:31.090 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 19:04:31.090 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.4336ms
+2024-08-10 19:04:31.090 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:04:31.090 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 0.926ms
+2024-08-10 19:04:53.208 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 19:04:53.209 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:04:53.209 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.1887ms
+2024-08-10 19:04:53.212 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 19:04:53.213 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:04:53.213 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:04:53.213 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 19:04:53.214 +05:30 [INF] Method has Started
+2024-08-10 19:04:53.216 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 19:04:53.216 +05:30 [INF] Success
+2024-08-10 19:04:53.216 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 19:04:53.217 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 3.1896ms
+2024-08-10 19:04:53.217 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:04:53.217 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 5.3707ms
+2024-08-10 19:05:59.636 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 19:05:59.637 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:05:59.637 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.4318ms
+2024-08-10 19:05:59.640 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 19:05:59.640 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:05:59.640 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:05:59.641 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 19:05:59.642 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 19:05:59.642 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.5587ms
+2024-08-10 19:05:59.642 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:05:59.642 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 2.0835ms
+2024-08-10 19:06:00.362 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 19:06:00.362 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:06:00.362 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:06:00.362 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 19:06:00.362 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 19:06:00.362 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.2412ms
+2024-08-10 19:06:00.362 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:06:00.362 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 0.504ms
+2024-08-10 19:06:01.602 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 19:06:01.602 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:06:01.602 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.3101ms
+2024-08-10 19:06:01.604 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 19:06:01.604 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:06:01.604 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:06:01.604 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 19:06:01.605 +05:30 [INF] Method has Started
+2024-08-10 19:06:01.607 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 19:06:01.607 +05:30 [INF] Success
+2024-08-10 19:06:01.608 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 19:06:01.608 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 3.1428ms
+2024-08-10 19:06:01.608 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:06:01.608 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 4.1976ms
+2024-08-10 19:08:22.185 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - null null
+2024-08-10 19:08:22.185 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:08:22.185 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Login/Login - 204 null null 0.3487ms
+2024-08-10 19:08:22.189 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json 68
+2024-08-10 19:08:22.190 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:08:22.190 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:08:22.190 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 19:08:22.191 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 19:08:22.191 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 0.9446ms
+2024-08-10 19:08:22.191 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 19:08:22.191 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 2.9899ms
+2024-08-10 19:08:26.505 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 19:08:26.505 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:08:26.505 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5285/api/Student/GetStudentName - 204 null null 0.2296ms
+2024-08-10 19:08:26.507 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - application/json; null
+2024-08-10 19:08:26.507 +05:30 [INF] CORS policy execution successful.
+2024-08-10 19:08:26.507 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:08:26.507 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 19:08:26.508 +05:30 [INF] Method has Started
+2024-08-10 19:08:26.510 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 19:08:26.510 +05:30 [INF] Success
+2024-08-10 19:08:26.510 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 19:08:26.510 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 2.93ms
+2024-08-10 19:08:26.510 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 19:08:26.511 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 3.8197ms
+2024-08-10 21:21:31.857 +05:30 [INF] User profile is available. Using 'C:\Users\Sunny\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-10 21:21:34.172 +05:30 [INF] Now listening on: http://localhost:5285
+2024-08-10 21:21:34.174 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-10 21:21:34.174 +05:30 [INF] Hosting environment: Development
+2024-08-10 21:21:34.174 +05:30 [INF] Content root path: C:\Users\Sunny\source\repos\CollegeApp\CollegeApp
+2024-08-10 21:21:34.583 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger/index.html - null null
+2024-08-10 21:21:34.891 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger/index.html - 200 null text/html;charset=utf-8 313.7073ms
+2024-08-10 21:21:34.896 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-10 21:21:34.896 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/_vs/browserLink - null null
+2024-08-10 21:21:34.900 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 4.1173ms
+2024-08-10 21:21:34.946 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.3226ms
+2024-08-10 21:21:35.187 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger/v1/swagger.json - null null
+2024-08-10 21:21:35.410 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 223.0949ms
+2024-08-10 21:21:56.033 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json-patch+json 81
+2024-08-10 21:21:56.038 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-08-10 21:21:56.039 +05:30 [INF] CORS policy execution successful.
+2024-08-10 21:21:56.042 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 21:21:56.058 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 21:21:56.242 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 21:21:56.266 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 206.1804ms
+2024-08-10 21:21:56.267 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 21:21:56.267 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 234.1231ms
+2024-08-10 21:22:21.228 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 21:22:21.278 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(String inputString, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-08-10 21:22:21.302 +05:30 [INF] LocalJwt was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-08-10 21:22:21.305 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-08-10 21:22:21.308 +05:30 [INF] AuthenticationScheme: LocalJwt was challenged.
+2024-08-10 21:22:21.308 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 401 0 null 80.2073ms
+2024-08-10 21:22:49.954 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json-patch+json 81
+2024-08-10 21:22:49.954 +05:30 [INF] CORS policy execution successful.
+2024-08-10 21:22:49.954 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 21:22:49.955 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 21:22:49.956 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 21:22:49.956 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 1.3176ms
+2024-08-10 21:22:49.956 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 21:22:49.956 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 2.5929ms
+2024-08-10 21:23:41.031 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 21:23:41.062 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 21:23:41.066 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 21:23:41.776 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 709.6515ms
+2024-08-10 21:23:41.777 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 21:23:41.778 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CollegeApp.Service.ICacheProvider' while attempting to activate 'CollegeApp.Controllers.StudentController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method17(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-10 21:23:41.786 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 500 null text/plain; charset=utf-8 755.9079ms
+2024-08-10 21:25:20.305 +05:30 [INF] User profile is available. Using 'C:\Users\Sunny\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-10 21:25:23.046 +05:30 [INF] Now listening on: http://localhost:5285
+2024-08-10 21:25:23.047 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-10 21:25:23.047 +05:30 [INF] Hosting environment: Development
+2024-08-10 21:25:23.047 +05:30 [INF] Content root path: C:\Users\Sunny\source\repos\CollegeApp\CollegeApp
+2024-08-10 21:25:23.614 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger/index.html - null null
+2024-08-10 21:25:23.838 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger/index.html - 200 null text/html;charset=utf-8 230.4453ms
+2024-08-10 21:25:23.847 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-10 21:25:23.847 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/_vs/browserLink - null null
+2024-08-10 21:25:23.852 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 5.2054ms
+2024-08-10 21:25:23.894 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.3153ms
+2024-08-10 21:25:23.952 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/swagger/v1/swagger.json - null null
+2024-08-10 21:25:24.132 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 180.461ms
+2024-08-10 21:27:00.794 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json-patch+json 81
+2024-08-10 21:27:00.801 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-08-10 21:27:00.802 +05:30 [INF] CORS policy execution successful.
+2024-08-10 21:27:00.806 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 21:27:00.824 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 21:27:00.973 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 21:27:00.996 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 169.6068ms
+2024-08-10 21:27:00.996 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 21:27:00.996 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 204.6016ms
+2024-08-10 21:27:23.625 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 21:27:23.659 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(String inputString, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-08-10 21:27:23.681 +05:30 [INF] LocalJwt was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-08-10 21:27:23.684 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-08-10 21:27:23.687 +05:30 [INF] AuthenticationScheme: LocalJwt was challenged.
+2024-08-10 21:27:23.687 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 401 0 null 62.6179ms
+2024-08-10 21:27:40.232 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5285/api/Login/Login - application/json-patch+json 81
+2024-08-10 21:27:40.233 +05:30 [INF] CORS policy execution successful.
+2024-08-10 21:27:40.233 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 21:27:40.233 +05:30 [INF] Route matched with {action = "LoginRoute", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginRoute(CollegeApp.DTO.LoginModelDTO) on controller CollegeApp.Controllers.LoginController (CollegeApp).
+2024-08-10 21:27:40.234 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.LoginResDTO'.
+2024-08-10 21:27:40.235 +05:30 [INF] Executed action CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp) in 1.1417ms
+2024-08-10 21:27:40.235 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LoginController.LoginRoute (CollegeApp)'
+2024-08-10 21:27:40.235 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5285/api/Login/Login - 200 326 application/json; charset=utf-8 2.4212ms
+2024-08-10 21:28:16.984 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 21:28:17.017 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 21:28:17.021 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 21:28:28.731 +05:30 [INF] Method has Started
+2024-08-10 21:28:32.129 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[DepartmentId], [s].[Email], [s].[StudentName]
+FROM [Students] AS [s]
+2024-08-10 21:28:43.080 +05:30 [INF] Success
+2024-08-10 21:28:43.082 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 21:28:43.088 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 26066.4665ms
+2024-08-10 21:28:43.088 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 21:28:43.096 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 26114.9846ms
+2024-08-10 21:28:47.281 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - null null
+2024-08-10 21:28:47.282 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 21:28:47.282 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.DTO.ApiResponse]] GetStudentName() on controller CollegeApp.Controllers.StudentController (CollegeApp).
+2024-08-10 21:28:50.240 +05:30 [INF] Method has Started
+2024-08-10 21:29:00.986 +05:30 [INF] Success
+2024-08-10 21:29:00.987 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.DTO.ApiResponse'.
+2024-08-10 21:29:00.987 +05:30 [INF] Executed action CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp) in 13704.7847ms
+2024-08-10 21:29:00.987 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StudentController.GetStudentName (CollegeApp)'
+2024-08-10 21:29:00.987 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5285/api/Student/GetStudentName - 200 249 application/json; charset=utf-8 13706.9881ms
